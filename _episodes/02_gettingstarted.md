@@ -8,7 +8,7 @@ toc: true
 ---
 
 
-In this session you will receive a guided tour of RStudio. From installing the required software to running the basic commands in a script. We will help you installating R and RStudio and equip you with the basic notions of RStudio to ease your progress. These notions include an understaning of the RStudio layout, how to create a script, and run basic commands. There are some exercises for you to check your understanding and in case you want more, there is a script in section 10 with more commands and other examples.
+In this session you will receive a guided tour of RStudio. From installing the required software to running the basic commands in a script. We will help you installing R and RStudio and equip you with the basic notions of RStudio to ease your progress. These notions include an understanding of the RStudio layout, how to create a script, and run basic commands. There are some exercises for you to check your understanding and in case you want more, there is a script in section 10 with more commands and other examples.
 
 
 # What are R and RStudio?
