@@ -15,7 +15,7 @@ jobs:
       
       - name: Install packages
         run: |
-        R -e 'install.packages("blogdown")'
+          R -e 'install.packages("blogdown")'
     # Run R script
       - name: build
         run: Rscript R/build.R
