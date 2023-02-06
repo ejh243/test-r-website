@@ -1,0 +1,60 @@
+---
+layout: page
+title: "R Training: Session 1 - Part 2"
+order: 4
+session: 1
+length: 30
+toc: true
+---
+
+**Assign a name to your command.**
+
+This action will become very useful. You assign names to objects so that then you can perform operations with these objects, such as plotting.
+
+```{r echo=TRUE}
+## 1.2 Create an object using the assign symbol (<-)
+a <- 2+2 # Run this command and look at pane 3
+```
+
+<br>
+
+**Plot your variable 'a'.** 
+```{r  fig.align='center', echo=TRUE}
+## 1.3 Let's plot our object
+plot(a) # This appears on pane 4
+```
+
+<br>
+
+## Using built-in data
+
+R has readily available data sets for you to explore, play, analyse, plot... 
+
+Run this command if you want a list of what's available:
+
+```{r echo=TRUE}
+data()
+```
+
+There are a few that are commonly used in R-Training sessions. You will encounter these frequently:
+
+- mtcars
+- USArrests
+- iris
+
+<br>
+
+**Iris data set**
+
+This data set holds information about 50 flowers of 3 species of iris. 
+```{r,  fig.align='left', echo = FALSE, out.width='50%'}
+knitr::include_graphics(c("images/iris.png"))
+```
+
+<br>
+If you want to know more about this data set. 
+
+```{r echo=TRUE}
+?iris # Look at pane 4
+```
+
