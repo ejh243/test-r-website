@@ -19,3 +19,10 @@ jobs:
     # Run R script
       - name: build
         run: Rscript R/build.R
+        
+      - name: Commit new files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+    # Optional. Commit message for the created commit.
+    # Defaults to "Apply automatic changes"
+          commit_message: Automated Change
